@@ -14,14 +14,14 @@ do
     {
         Console.WriteLine("Вы ввели недопустимое значение. X = 0 или Y = 0 Попробуйте еще раз.");
     }
-   
+
     else
     {
-         if (Xcor > 0 && Ycor > 0) Console.WriteLine("1");
-         if (Xcor < 0 && Ycor > 0) Console.WriteLine("2");
-         if (Xcor < 0 && Ycor < 0) Console.WriteLine("3");
-         if (Xcor > 0 && Ycor < 0) Console.WriteLine("4");
-         break;
+        if (Xcor > 0 && Ycor > 0) Console.WriteLine("1");
+        if (Xcor < 0 && Ycor > 0) Console.WriteLine("2");
+        if (Xcor < 0 && Ycor < 0) Console.WriteLine("3");
+        if (Xcor > 0 && Ycor < 0) Console.WriteLine("4");
+        break;
     }
 
 } while (true);
